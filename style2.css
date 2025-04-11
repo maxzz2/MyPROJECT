@@ -1,0 +1,97 @@
+body {
+    background-color: #e1ad7b;
+    background-image: url("../images/Pikachu.webp"), url("../images/forest.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-size: 50%, cover;
+    background-attachment: fixed, scroll;
+    background-position: center center;
+}
+
+article {
+    background-color: burlywood;
+    opacity: 0.9;
+    width: 90%;
+    margin: 10px auto;
+    padding: 20px;
+    border-style: solid;
+    border-color: saddlebrown;
+    border-width: 10px;
+    border-radius: 16px;
+    box-sizing: border-box;
+}
+
+h2 {
+    color: #d2a275;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+}
+
+p {
+    margin: 10px auto;
+}
+
+.p_header {
+    text-align: center;
+    font-size: 24px;
+    color: coral;
+}
+
+#p1 {
+    font-weight: bold;
+    color: sandybrown;
+}
+
+.text_green {
+    color: saddlebrown;
+}
+
+.text_small {
+    font-size: 18px; /* Comment */
+    background-color: burlywood;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+.text_nav {
+    border: 1px solid black;
+    padding: 2px;
+    background-color: burlywood;
+}
+
+/* Нові стилі для позиціювання, відступів, рамок і контурів */
+.absolute {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px; /* Внутрішній відступ */
+    margin: 20px; /* Зовнішній відступ */
+    border: 2px solid #333; /* Рамка */
+    outline: 2px dashed #ff0000; /* Контур */
+}
+
+.fixed {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #28a745;
+    color: white;
+    padding: 10px; /* Внутрішній відступ */
+    margin: 20px; /* Зовнішній відступ */
+    border: 2px solid #333; /* Рамка */
+    outline: 2px dashed #ff0000; /* Контур */
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    background-color: #dc3545;
+    color: white;
+    padding: 10px; /* Внутрішній відступ */
+    margin: 20px; /* Зовнішній відступ */
+    border: 2px solid #333; /* Рамка */
+    outline: 2px dashed #ff0000; /* Контур */
+}

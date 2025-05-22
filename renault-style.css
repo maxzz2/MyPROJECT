@@ -1,0 +1,325 @@
+﻿body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #ffffff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: black;
+    background-color: #fff;
+  }
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    header h1 {
+        margin: 0;
+        font-size: 1.5rem;
+    }
+
+nav {
+    display: flex;
+    gap: 1.5rem;
+}
+
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s ease;
+    }
+
+        nav a:hover {
+            color: #ffc107;
+        }
+
+.hero {
+    background: linear-gradient(to right, #300000, #ec6e05);
+    color: #fff;
+    padding: 3rem 2rem;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hero-text {
+    max-width: 600px;
+}
+
+    .hero-text h2 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .hero-text p {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+
+    .hero-text a {
+        background: #fff;
+        color: #000;
+        padding: 0.75rem 1.5rem;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 4px;
+        transition: background 0.3s ease;
+    }
+
+        .hero-text a:hover {
+            background: #ffc107;
+        }
+
+.hero img {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #000;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+.photo1 {
+    max-width: 1920px;
+    min-width: 720px;
+    max-height: 1080px;
+    min-height: 800px;
+}
+
+.custom-footer {
+    background-color: #000;
+    color: #fff;
+    padding: 3rem 2rem;
+}
+
+.footer-columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+    .footer-columns div {
+        flex: 1;
+        min-width: 150px;
+    }
+
+    .footer-columns h4 {
+        margin-bottom: 1rem;
+        font-size: 1.1rem;
+    }
+
+    .footer-columns ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+        .footer-columns ul li {
+            margin-bottom: 0.5rem;
+        }
+
+            .footer-columns ul li a {
+                color: #ccc;
+                text-decoration: none;
+                transition: color 0.3s ease;
+            }
+
+                .footer-columns ul li a:hover {
+                    color: #fff;
+                }
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+    filter: brightness(0) invert(1);
+}
+
+
+.container {
+    border: 1px solid #ddd;
+    padding: 20px;
+    max-width: 900px;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.subtitle {
+    margin-top: 5px;
+    color: #555;
+}
+
+.price {
+    float: right;
+    text-align: right;
+}
+
+    .price strong {
+        font-size: 22px;
+    }
+
+    .price a {
+        display: block;
+        text-decoration: underline;
+        margin-top: 5px;
+    }
+
+.promo-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.promo-left img {
+    width: 200px;
+}
+
+.promo-text {
+    flex: 1;
+    margin-left: 20px;
+}
+
+    .promo-text h3 {
+        margin: 0;
+    }
+
+    .promo-text p {
+        margin: 5px 0;
+    }
+
+.btn {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+  
+  .background {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .car-image img {
+    width: 100%;
+    max-height: 75vh;
+    object-fit: cover;
+  }
+  
+  .info-bar {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .info-block {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+  }
+  
+  .info-block h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .chat-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: yellow;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+
+
+{
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 1000px; /* Ширина изображения */
+}
+
+.car-image {
+    width: 100%;
+    display: block;
+}
+
+.duster-button {
+    position: absolute;
+    bottom: 110px; /* Расположение по вертикали */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    color: black;
+    padding: 12px 28px;
+    border-radius: 12px;
+    font-size: 22px;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+    .duster-button:hover {
+        background-color: #eee;
+    }
